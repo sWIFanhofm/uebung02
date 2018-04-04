@@ -90,6 +90,9 @@ public class StringSetImpl implements StringSet {
         }
 
         Element it = root;
+        while(it != root){
+            
+        }
 
     }
 
