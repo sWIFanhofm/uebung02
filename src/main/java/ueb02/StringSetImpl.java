@@ -75,7 +75,7 @@ public class StringSetImpl implements StringSet {
                 return true;
             else if(c < 0){
                 it = it.left;
-            } else if(c > 0){
+            } else {
                 it = it.right;
             }
         }
